@@ -1,0 +1,97 @@
+.field {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    .img {
+        width: 300px;
+        height: 250px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .form {
+        h2 {
+            color: orangered;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+            margin-top: 20px;
+
+            .links__reset {
+                display: flex;
+                justify-content: space-between;
+                a {
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+
+            .links {
+                text-align: center;
+
+                a {
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+
+            input {
+                width: 250px;
+                padding: 8px 0;
+                outline: none;
+                padding: 5px 5px;
+            }
+
+            .btn {
+                width: 250px;
+                background-color: blue;
+                padding: 8px 0;
+                color: #fff;
+                border: 1px solid transparent;
+                transition: 0.3s ease;
+
+                &:hover {
+                    background-color: rgb(48, 48, 137);
+                }
+            }
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .btn__orange {
+            width: 250px;
+            background-color: rgb(255, 98, 0);
+            padding: 8px 0;
+            color: #fff;
+            border: 1px solid transparent;
+            transition: 0.3s ease;
+
+            &:hover {
+                background-color: rgb(253, 126, 47);
+            }
+        }
+
+        .register {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            padding: 5px 0;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
